@@ -17,7 +17,7 @@
   --black: #000;
   --height: calc(100vh - 56px);
   --width: 100%;
-  --fontFamily: "Roboto";
+  --fontFamily: 'Roboto';
 }
 
 .floating-button {
@@ -52,7 +52,7 @@
 }
 .svg--container div {
   height: 210px;
-  background: var(--dark-primary) url("../assets/espe.jpg");
+  background: var(--dark-primary) url('../assets/espe.jpg');
   background-position: bottom;
   background-size: cover;
   object-fit: cover;
