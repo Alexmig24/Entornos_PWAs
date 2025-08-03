@@ -1,9 +1,10 @@
 {
-  "name": "PWAs_Entornos",
+  "name": "pwas",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 ."
+    "start": "http-server -c-1 .",
+    "dev": "live-server"
   },
   "keywords": [],
   "author": "",
