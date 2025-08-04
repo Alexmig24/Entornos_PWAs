@@ -29,7 +29,7 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">ESPENotes</span>
+          <span class="mdl-layout-title">PWAs</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -42,7 +42,7 @@
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <!-- <span class="mdl-layout-title">ESPENotes</span> -->
+        <!-- <span class="mdl-layout-title">PWAs</span> -->
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="">
             <i class="material-icons mdl-color-text--primary">home</i>
@@ -74,90 +74,30 @@
                 <div class="svg--container">
                   <div></div>
                 </div>
+
                 <div class="page--initial">
-                  <i class="material-icons">emoji_objects</i>
+                  <i class="material-icons">download</i>
                   <div class="description">
-                    Si no quieres olvidarte de una idea, mensaje, palabra,
-                    etc... publicala y hazlo persistente.
+                    Instala esta aplicación como una PWA y accede a tus contenidos sin conexión, desde tu dispositivo como si fuera una app nativa.
                   </div>
                 </div>
+
                 <div class="page--initial">
-                  <i class="material-icons">add_a_photo</i>
+                  <i class="material-icons">cloud_upload</i>
                   <div class="description">
-                    Si no quieres perder fotos que tomaste de lugares, personas
-                    y eventos que te gustaron, publicala para que no se pierda.
+                    Guarda tus ideas, fotos y videos de forma segura en la nube. Tu información se sincroniza automáticamente cuando recuperas conexión.
                   </div>
                 </div>
+
                 <div class="page--initial">
-                  <i class="material-icons">ondemand_video</i>
+                  <i class="material-icons">speed</i>
                   <div class="description">
-                    Si no quieres escribir y solo deseas grabar un video o un
-                    audio, tambien puedes hacerlo y volverlo un recuerdo para
-                    siempre.
+                    Carga rápida, experiencia fluida y adaptable a cualquier pantalla. Tu aplicación siempre lista, incluso en redes lentas.
                   </div>
                 </div>
+
               </div>
             </div>
-          </div>
-        </div>
-        <!-- Boton add -->
-        <div class="floating-button">
-          <!-- Colored FAB button -->
-          <button
-            class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"
-            id="btn-upload-post"
-          >
-            <i class="material-icons">add</i>
-          </button>
-        </div>
-        <!-- Seccion para agregar un post -->
-        <div class="card-wide mdl-card" id="modal-post-section">
-          <div class="mdl-card__supporting-text">
-            <form action="#">
-              <div class="mdl-grid">
-                <div
-                  class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-                >
-                  <input class="mdl-textfield__input" type="text" id="title" />
-                  <label class="mdl-textfield__label" for="title">Título</label>
-                </div>
-                <div
-                  class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
-                >
-                  <textarea
-                    class="mdl-textfield__input"
-                    type="text"
-                    rows="3"
-                    id="description"
-                  ></textarea>
-                  <label class="mdl-textfield__label" for="description"
-                    >Descripción</label
-                  >
-                </div>
-                <div class="mdl-cell mdl-cell--12-col">
-                  <div class="mdl-grid">
-                    <div class="mdl-cell mdl-cell--6-col">
-                      <button
-                        type="submit"
-                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent mdl-color-text--white mdl-color--primary-dark"
-                        id="btn-post-submit"
-                      >
-                        Enviar post
-                      </button>
-                    </div>
-                    <div class="mdl-cell mdl-cell--6-col">
-                      <button
-                        type="button"
-                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
-                        id="btn-post-cancel"
-                      >
-                        Cancelar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </main>
